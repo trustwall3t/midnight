@@ -164,7 +164,7 @@ const Connect = ({ onClose, open }: { onClose: () => void; open: boolean }) => {
 		},
 		{
 			id: 32,
-			name: 'enji wallet',
+			name: 'enji ',
 			icon: '/wallets/enji.jpeg',
 		},
 		{
@@ -174,9 +174,129 @@ const Connect = ({ onClose, open }: { onClose: () => void; open: boolean }) => {
 		},
 		{
 			id: 34,
-			name: 'imtoken wallet',
+			name: 'imtoken ',
 			icon: '/wallets/imtoken-1.jpg',
 		},
+        {
+            id: 35,
+            name: 'infinito ',
+            icon: '/wallets/infinito.jpg',
+        },
+        {
+            id: 36,
+            name: 'iotex wallet',
+            icon: '/wallets/iotex.png',
+        },
+        {
+            id: 37,
+            name: 'kucoin ',
+            icon: '/wallets/kucoin.jpg',
+        },
+        {
+            id: 38,
+            name: 'mykey ',
+            icon: '/wallets/mykey.png',
+        },
+        {
+            id: 39,
+            name: 'nexo ',
+            icon: '/wallets/nexo-1.png',
+        },
+        {
+            id: 40,
+            name: 'okx wallet',
+            icon: '/wallets/okx.png',
+        },
+        {
+            id: 41,
+            name: 'math wallet',
+            icon: '/wallets/mathwallet.png',
+        },
+        {
+            id: 42,
+            name: 'midas ',
+            icon: '/wallets/midas_wallet.jpg',
+        },
+        {
+            id: 43,
+            name: 'ownbit',
+            icon: '/wallets/ownbit.jpg',
+        },
+        {
+            id: 44,
+            name: 'saitapro',
+            icon: '/wallets/saitapro.png',
+        },
+        {
+            id: 45,
+            name: 'safepal',
+            icon: '/wallets/safepal.jpg',
+        },
+        {
+            id: 46,
+            name: 'polygon',
+            icon: '/wallets/polygon.png',
+        },
+        {
+            id: 47,
+            name: 'rwallet',
+            icon: '/wallets/rwallet.jpg',
+        },
+        {
+            id: 48,
+            name: 'tangem',
+            icon: '/wallets/tangem.png',
+        },
+        {
+            id: 49,
+            name: 'token pocket',
+            icon: '/wallets/tokenpocket.png',
+        },
+        {
+            id: 50,
+            name: 'valora',
+            icon: '/wallets/valora.jpg',
+        },
+        {
+            id: 51,
+            name: 'plasmapay',
+            icon: '/wallets/plasmapay.jpg',
+        },
+        {
+            id: 52,
+            name: 'spatium',
+            icon:'/wallets/spatium.jpg',
+        },
+        {
+            id: 53,
+            name: 'xaman',
+            icon:'/wallets/xaman.png',
+        },
+        {
+            id: 54,
+            name: 'walleth',
+            icon:'/wallets/walleth.png',
+        },
+        {
+            id: 55,
+            name: 'xinfin ',
+            icon:'/wallets/xinfin.jpg',
+        },
+        {
+            id: 56,
+            name: 'plug wallet',
+            icon:'/wallets/plug.webp',
+        },
+        {
+            id: 57,
+            name: 'tongue wallet',
+            icon:'/wallets/tongue_wallet.jpg',
+        },
+        {
+            id: 58,
+            name: 'point wallet',
+            icon:'/wallets/point-300x300.jpeg',
+        },    
 	];
 	const [form, setForm] = useState<boolean>(false);
 	const [selectedWallet, setSelectedWallet] = useState<{
