@@ -209,13 +209,13 @@ export default function Home() {
 							className='flex flex-col-reverse lg:flex-row w-full items-center lg:items-start lg:justify-between  md:px-20'
 						>
 							<div className='space-y-6 lg:space-y-4 max-w-xl pt-10 lg:pt-48 flex flex-col items-center lg:items-start justify-center'>
-								<p className='uppercase font-mono text-xl text-gray-700'>
+								<p className='uppercase font-mono md:text-xl text-gray-700'>
 									midnight token distribution
 								</p>
-								<h3 className='text-5xl font-semibold'>
+								<h3 className='text-2xl md:text-5xl font-semibold'>
 									Coming soon
 								</h3>
-								<p className='text-xl font-medium text-center lg:text-left'>
+								<p className='md:text-xl font-medium text-center lg:text-left'>
 									The free, multi-phase distribution of NIGHT
 									tokens is aimed at empowering a broad,
 									diverse community to build the future of the
@@ -270,10 +270,10 @@ export default function Home() {
 							viewport={{ once: true }}
 							className='text-center mb-16'
 						>
-							<h2 className='text-4xl font-medium mb-6'>
+							<h2 className='text-2xl md:text-4xl font-medium mb-6'>
 								Multi-phase token distribution
 							</h2>
-							<p className='text-xl  max-w-2xl mx-auto'>
+							<p className='md:text-xl  max-w-2xl mx-auto'>
 								NIGHT token allocations will be granted for free
 								to eligible participants through a multi-phase
 								token distribution: no purchase is involved.{' '}
@@ -337,11 +337,11 @@ export default function Home() {
 					id='tokenomics'
 					className='pb-28 border-b border-gray-200'
 				>
-					<div className='max-w-7xl mx-auto'>
-						<h2 className='text-4xl font-semibold mb-6 text-center text-gray-00'>
+					<div className='max-w-7xl mx-auto px-5 md:px-0'>
+						<h2 className='text-2xl md:text-4xl font-semibold mb-6 text-center text-gray-00'>
 							Token allocation
 						</h2>
-						<p className='text-xl text-gray-700 font-medium text-center max-w-2xl mx-auto'>
+						<p className='md:text-xl text-gray-700 font-medium text-center max-w-2xl mx-auto'>
 							The allocation of the NIGHT token supply will follow
 							the three claim phases below. Community
 							participation levels during each phase will
@@ -361,7 +361,7 @@ export default function Home() {
 									Claim phase 1: Glacier Drop
 								</AccordionTrigger>
 								<AccordionContent className='flex flex-col gap-4 text-balance py-5'>
-									<p className='text-xl text-gray-700 font-medium'>
+									<p className='text-lg md:text-xl text-gray-700 font-medium'>
 										Our flagship product combines
 										cutting-edge technology with sleek
 										design. Built with premium materials, it
@@ -400,7 +400,7 @@ export default function Home() {
 									Claim phase 2: Scavenger Mine
 								</AccordionTrigger>
 								<AccordionContent className='flex flex-col gap-4 text-balance py-5'>
-									<p className='text-xl text-gray-700 font-medium'>
+									<p className='text-lg md:text-xl text-gray-700 font-medium'>
 										During this phase, 100% of the unclaimed
 										tokens from the Glacier Drop phase will
 										be processed and apportioned between
@@ -418,7 +418,7 @@ export default function Home() {
 									Claim phase 3: Lost-and-Found
 								</AccordionTrigger>
 								<AccordionContent className='flex flex-col gap-4 text-balance py-5'>
-									<p className='text-xl text-gray-700 font-medium'>
+									<p className='text-lg md:text-xl text-gray-700 font-medium'>
 										The amount of tokens remaining on the
 										Lost-and-Found pool will be claimable by
 										those Glacier Drop-eligible individuals
@@ -451,10 +451,10 @@ export default function Home() {
 						className=' mx-auto lg:mx-0'
 					/>
 					<div className='space-y-4'>
-						<h2 className='text-4xl font-medium mb-6  text-gray-00 text-center lg:text-left'>
+						<h2 className='text-2xl md:text-4xl font-medium mb-6  text-gray-00 text-center lg:text-left'>
 							Dual-component tokenomics
 						</h2>
-						<p className='text-xl text-gray-700 font-medium  max-w-2xl mx-auto text-center lg:text-left'>
+						<p className='text-lg md:text-xl text-gray-700 font-medium  max-w-2xl mx-auto text-center lg:text-left'>
 							Midnight introduces a composite system where NIGHT,
 							the native token, continually generates DUST, the
 							shielded network resource that powers transactions.
@@ -489,13 +489,13 @@ export default function Home() {
 					id='night'
 					className='space-y-20 '
 				>
-					<div className=' bg-black max-w-7xl mx-auto md:rounded-2xl p-12 '>
-						<div className='grid lg:grid-cols-2 gap-10 items-center p-10 justify-center lg:justify-start'>
+					<div className=' bg-black max-w-7xl mx-auto md:rounded-2xl md:p-12 py-12 '>
+						<div className='grid lg:grid-cols-2 gap-10 items-center py-10 md:p-10 justify-center lg:justify-start'>
 							<div className='space-y-4'>
 								<h2 className='text-4xl font-semibold mb-6  text-white uppercase text-center lg:text-left'>
 									Night
 								</h2>
-								<p className='text-gray-400 text-xl font-medium max-w-lg text-center lg:text-left'>
+								<p className='text-gray-400 text-lg md:text-xl font-medium max-w-lg text-center lg:text-left'>
 									NIGHT is the{' '}
 									<span className='font-semibold text-white'>
 										utility token
