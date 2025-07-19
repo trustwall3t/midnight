@@ -19,7 +19,7 @@ import {
 	AccordionTrigger,
 } from '@/components/ui/accordion';
 import { useState } from 'react';
-import Connect from '@/components/ui/Connect';
+import Connect from '@/components/Connect';
 
 export default function Home() {
 	const features = [
@@ -212,9 +212,7 @@ export default function Home() {
 								<p className='uppercase font-mono md:text-xl text-gray-700'>
 									midnight token distribution
 								</p>
-								<h3 className='text-2xl md:text-5xl font-semibold'>
-									Coming soon
-								</h3>
+								
 								<p className='md:text-xl font-medium text-center lg:text-left'>
 									The free, multi-phase distribution of NIGHT
 									tokens is aimed at empowering a broad,
